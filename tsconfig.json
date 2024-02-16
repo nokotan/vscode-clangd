@@ -23,7 +23,8 @@
         "noFallthroughCasesInSwitch": true,
         "noImplicitAny": true,
         "noImplicitReturns": true,
-        "noImplicitThis": true
+        "noImplicitThis": true,
+        "skipLibCheck": true
     },
     "exclude": [
         "node_modules",

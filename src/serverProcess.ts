@@ -62,7 +62,7 @@ async function loadInitialFiles(extensionUri: string, includes: string[]) {
     writeFile("/home/web_user/.config/clangd/config.yaml",
     `
 CompileFlags:
-    Add: [--target=wasm32-unknown]     
+    Add: [--target=wasm32-unknown, -I/usr/include]     
     `
     );
 
