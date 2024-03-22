@@ -1,12 +1,12 @@
 {
     "name": "vscode-clangd-web",
-    "displayName": "clangd web",
+    "displayName": "clangd (WebAssembly)",
     "description": "C/C++ completion, navigation, and insights",
     "version": "0.1.24",
     "publisher": "kamenokoSoft",
     "license": "MIT",
-    "homepage": "https://clangd.llvm.org/",
-    "icon": "icon.png",
+    "homepage": "",
+    "icon": "",
     "engines": {
         "vscode": "^1.65.0"
     },
@@ -42,9 +42,9 @@
         "format": "clang-format -i --glob=\"{src,test}/*.ts\"",
         "test-compile": "tsc -p ./ && npm run compile",
         "test": "npm run test-compile && node ./out/test/index.js",
-        "package": "webpack --mode production --devtool hidden-source-map && vsce package --baseImagesUrl https://raw.githubusercontent.com/clangd/vscode-clangd/master/",
-        "publish": "vsce publish --baseImagesUrl https://raw.githubusercontent.com/clangd/vscode-clangd/master/",
-        "publish-openvsx": "ovsx publish --baseImagesUrl https://raw.githubusercontent.com/clangd/vscode-clangd/master/",
+        "package": "webpack --mode production --devtool hidden-source-map && vsce package --baseImagesUrl https://...",
+        "publish": "vsce publish --baseImagesUrl https://...",
+        "publish-openvsx": "ovsx publish --baseImagesUrl https://...",
         "git-clang-format": "git-clang-format --extensions=ts",
         "serve": "npx '@vscode/test-web' --coi --extensionPath=. --browser=none"
     },
@@ -81,7 +81,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/clangd/vscode-clangd.git"
+        "url": "https://github.com/nokotan/vscode-clangd.git"
     },
     "qna": "marketplace",
     "capabilities": {
